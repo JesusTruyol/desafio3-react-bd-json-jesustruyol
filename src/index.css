@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.conatiner-search{
+  background-color: black;
+  color: aliceblue;
+  width: 100%;
+}
+
+.row{
+  align-items: center;
+}
+.title-search{
+  padding-left: 30px;
+}
+.search{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+/* .form-search{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+} */
