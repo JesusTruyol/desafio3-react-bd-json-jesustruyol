@@ -41,7 +41,8 @@ const FormInput = ({list, setList, setSearch}) => {
                 value= {inputEmail}
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" 
+            disabled={inputName!=='' && inputEmail!=='' ? false : true}>
               Agregar
             </Button>
           </Form>
